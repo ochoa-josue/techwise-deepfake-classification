@@ -1,2 +1,3 @@
 datasets/140k_real_and_fake_faces
 datasets/*.zip
+.DS_Store
