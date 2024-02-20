@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image Upload Result</title>
+  </head>
+  <body>
+    <h1>Image Upload Result</h1>
+    {% if is_deepfake %}
+    <p>The image is likely a deepfake.</p>
+    {% else %}
+    <p>The image is likely not a deepfake.</p>
+    {% endif %}
+    <a href="/">Upload another image</a>
+  </body>
+</html>

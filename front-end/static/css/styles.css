@@ -1,0 +1,305 @@
+body,
+h1,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #ffe45e;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+}
+
+.logo-name {
+  margin-right: 60%;
+}
+
+.demo-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#logo {
+  width: 50px; /* Adjust as needed */
+}
+
+main {
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+.intro .intro-adjustment {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro #home-text {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 20px;
+  text-align: left;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+}
+
+#profile {
+  width: 900px; /* Adjust as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.try-demo-button {
+  background-color: #ffe45e;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#about {
+  /* background: url("static/assets/about-page.jpg") no-repeat center center; */
+  background-size: cover;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+#about .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#about h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  background-color: #ffd700; /* Adjust the color to match your design */
+  color: #000;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 25px; /* This will give the buttons a curved edge */
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #cca700; /* Darker shade for hover effect */
+}
+
+.demo-section {
+  /* background: url("./assets/upload-img.jpg") center center no-repeat; */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.demo-section h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.demo-section p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #ffc107; /* Adjust the color to match the button in the image */
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 25px; /* This will give the button a curved edge */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.98); /* Slightly shrink the button when clicked */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.team-section {
+  text-align: center;
+  background: #fff; /* Replace with the actual background color or image */
+}
+
+.team-pair-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.team-pair-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.team-section h1 {
+  margin-bottom: 50px;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 20px;
+  text-align: left;
+}
+
+.team-member img {
+  border-radius: 50%; /* Adjust as needed */
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+}
+
+.team-member h3 {
+  margin-top: 10px;
+}
+
+.team-member p {
+  margin-top: 5px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ffe45e; /* or another color according to your design */
+}
+
+.skills-section {
+  background-color: #ffe45e;
+  background-size: cover;
+  color: #333;
+  padding: 50px;
+  text-align: center;
+}
+
+.skill-category {
+  background-color: #fff;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px; /* This creates the curved corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* This adds a subtle shadow */
+}
+
+.skill-category h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  color: #ea6656;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category li {
+  padding: 5px 0;
+}
+
+.skills-section h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #ea6656;
+}
+
+.site-footer {
+  background-color: #000; /* Replace with the actual color you want for the footer background */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.footer-logo {
+  width: 50px; /* Adjust as needed */
+  height: auto;
+}
+
+.footer-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Adjust space between links as needed */
+}
+
+.footer-nav span {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Add media query for responsive design if needed */
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
