@@ -4,6 +4,6 @@ tensorflow-datasets
 numpy
 scikit-learn
 seaborn
-fastapi
-uvicorn
-python-multipart
+flask
+pillow
+gunicorn
