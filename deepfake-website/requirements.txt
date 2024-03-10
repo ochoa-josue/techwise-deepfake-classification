@@ -1,0 +1,10 @@
+tensorflow==2.15.0
+matplotlib
+tensorflow-datasets==4.9.4
+numpy
+scikit-learn
+seaborn
+Flask==2.2.3
+Pillow==9.5.0
+gunicorn==21.2.0
+Werkzeug==2.2.3
