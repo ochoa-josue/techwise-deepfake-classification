@@ -1,0 +1,10 @@
+tensorflow
+matplotlib
+tensorflow-datasets
+numpy
+scikit-learn
+seaborn
+fastapi 
+uvicorn
+python-multipart
+jinja2
