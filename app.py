@@ -1,12 +1,19 @@
+import os
 from flask import Flask, render_template, request, jsonify
 from werkzeug.utils import secure_filename
 from PIL import Image
 import tensorflow as tf
 import numpy as np
+from tensorflow import keras
 
 app = Flask(__name__)
 
-model = tf.keras.models.load_model('deepfake_cnn_v1.keras')
+try:
+    model = keras.models.load_model('deepfake_cnn_v1.keras')
+except Exception as e:
+    model = None
+
+# model = tf.keras.models.load_model('deepfake_cnn_v1.keras')
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in {'png', 'jpg', 'jpeg'}
@@ -50,4 +57,5 @@ def upload_file():
     return jsonify(predictions)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 8080))
+    app.run(debug=True, host='0.0.0.0', port=port)
