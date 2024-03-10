@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Deepfake Detection</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="/static/assets/sirius-logo.png"
+          alt="Sirius Logo"
+          class="logo"
+        />
+        <span class="logo-text">Sirius</span>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#team">Meet the Team</a>
+        <a href="#content" class="demo-button">Demo</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="text-content">
+            <h1 class="main-heading">Machine Learning</h1>
+            <h2 class="sub-heading">DeepFake Classifier</h2>
+            <p class="description">
+              TechWise Offered by TalentSpring and Sponsored by Google
+            </p>
+            <button class="try-demo">
+              <a href="#content">Try the Demo</a>
+            </button>
+          </div>
+          <img
+            src="/static/assets/homepage-profile.jpeg"
+            alt="Person Spotlight"
+            class="person-spotlight"
+          />
+        </div>
+      </section>
+      <div class="container" id="about-section">
+        <h1>ABOUT</h1>
+        <p>
+          This project focuses on detecting deepfake images using both CNN and
+          GAN models. The GAN model is trained and evaluated for authenticity
+          prediction, while the CNN model is trained for binary classification
+          of real or fake images. Data preparation, model construction,
+          training, evaluation, and saving are covered for both models. Overall,
+          the project provides a comprehensive approach to deepfake image
+          detection using CNN and GAN models.
+        </p>
+        <div class="button-container">
+          <a
+            href="https://github.com/ochoa-josue/techwise-deepfake-classification"
+            class="button"
+            >GitHub</a
+          >
+          <a
+            href="https://drive.google.com/file/d/1MUXLKxRB1P8bW-Slcl0IcnFwVVvLwIlh/view?usp=sharing"
+            class="button"
+            >Presentation</a
+          >
+        </div>
+      </div>
+      <div class="project-team" id="team">
+        <h1><a href="https://linktr.ee/SiriusTW">Meet the Team</a></h1>
+        <div class="team-container">
+          <div class="team-profile">
+            <img
+              src="/static/assets/elena.jpeg"
+              alt="Elena Chau"
+              class="profile-photo"
+            />
+            <div class="profile-details">
+              <h2>Elena Chau</h2>
+              <p class="major">
+                Computer Science and Engineering major at University of Nevada,
+                Reno
+              </p>
+              <a
+                href="https://www.linkedin.com/in/elena-x-chau/"
+                class="linkedin-link"
+              >
+                <img
+                  src="/static/assets/linkedin.svg"
+                  alt="LinkedIn"
+                  class="linkedin-icon"
+                />
+              </a>
+              <p>
+                I focused on developing the GAN model, particularly the
+                discriminator for deepfake classification. I enjoy data science
+                and machine learning. Outside of my work, I indulge in spontaneous
+                activities such as playing chess, hiking, and practicing yoga,
+                while also enjoying engaging conversations.
+              </p>
+            </div>
+          </div>
+          <div class="team-profile">
+            <img
+              src="/static/assets/augustine.png"
+              alt="Augustine George"
+              class="profile-photo"
+            />
+            <div class="profile-details">
+              <h2>Augustine George</h2>
+              <p class="major">
+                Computer Science major at University of Pittsburgh
+              </p>
+              <a
+                href="https://www.linkedin.com/in/augustine-george-8a2175289/"
+                class="linkedin-link"
+              >
+                <img
+                  src="/static/assets/linkedin.svg"
+                  alt="LinkedIn"
+                  class="linkedin-icon"
+                />
+              </a>
+              <p>
+                I built a CNN model as part of the project. Apart from that, I
+                enjoy playing Badminton and recently started Racquetball. I aspire
+                to pursue a research career in machine learning, with a keen
+                interest in robotics and gaming.
+              </p>
+            </div>
+          </div>
+          <div class="team-profile">
+            <img
+              src="/static/assets/josue.png"
+              alt="Josue Ochoa"
+              class="profile-photo"
+            />
+            <div class="profile-details">
+              <h2>Josue Ochoa</h2>
+              <p class="major">
+                Computer Science and Engineering major at University of Nevada,
+                Reno
+              </p>
+              <a
+                href="https://www.linkedin.com/in/josuejochoa/"
+                class="linkedin-link"
+              >
+                <img
+                  src="/static/assets/linkedin.svg"
+                  alt="LinkedIn"
+                  class="linkedin-icon"
+                />
+              </a>
+              <p>
+                I focused on implementing the final CNN model, along with cleaning
+                and compiling the finalized dataset. My principle career interests
+                lie in data science, machine learning, and computer vision. In my
+                free-time, I enjoy rock climbing, skateboarding, hiking, drawing,
+                and painting.
+              </p>
+            </div>
+          </div>
+          <div class="team-profile">
+            <img
+              src="/static/assets/ardit.png"
+              alt="Ardit Xhemajli"
+              class="profile-photo"
+            />
+            <div class="profile-details">
+              <h2>Ardit Xhemajli</h2>
+              <p class="major">
+                Computer Science major at the University of Pittsburgh
+              </p>
+              <a
+                href="https://www.linkedin.com/in/arditxh/"
+                class="linkedin-link"
+              >
+                <img
+                  src="/static/assets/linkedin.svg"
+                  alt="LinkedIn"
+                  class="linkedin-icon"
+                />
+              </a>
+              <p>
+                I contributed to developing and training the CNN model for this
+                project. I'm eager to learn new technologies in AI and apply them
+                to solve real-world problems. In my personal life, I enjoy playing
+                chess, staying active outdoors, and reading.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <h1>DEMO</h1>
+        <p>
+          Let's detect for some deepfakes. Upload an image for Deepfake
+          Detection.
+        </p>
+        <form id="upload-form" enctype="multipart/form-data">
+          <input
+            type="file"
+            id="imageInput"
+            accept="image/png, image/jpeg"
+            multiple
+          />
+          <button type="button" onclick="uploadImage()">Upload Image</button>
+        </form>
+        <div id="result"></div>
+      </div>
+    </main>
+    <div class="container-test">
+      <div class="container-technical">
+        <h1>Technical Skills Applied</h1>
+        <div class="skills-section">
+          <div class="skill-category">
+            <h2>Deep Learning</h2>
+            <p>
+              Convolutional Neural Networks<br />
+              Sequential Model Construction<br />
+              Loss Functions<br />
+              Optimizer Selection<br />
+              Regularization<br />
+              Batch Normalization<br />
+              Generative Adversarial Networks
+            </p>
+          </div>
+          <div class="skill-category">
+            <h2>Data Handling</h2>
+            <p>
+              TensorFlow<br />
+              Matplotlib<br />
+              NumPy<br />
+              Data Visualization<br />
+              Image Processing
+            </p>
+          </div>
+          <div class="skill-category">
+            <h2>Platforms</h2>
+            <p>
+              GitHub<br />
+              Google Colab<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <img
+          src="/static/assets/sirius-logo.png"
+          alt="Sirius Icon"
+          class="footer-icon"
+        />
+        <div class="footer-links">
+          <h3>SIRIUS</h3>
+          <ul>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#team">Meet the Team</a></li>
+            <li><a href="https://linktr.ee/SiriusTW">Connect with Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
